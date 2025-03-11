@@ -3,10 +3,8 @@
   font-size: 1rem;
 }
 
-/*
-This is a temporary fix until the component library is revisited.
-See https://github.com/freeCodeCamp/freeCodeCamp/issues/52131#issuecomment-1788840851.
-*/
+/* Temporary fix until the component library is revisited. 
+   See https://github.com/freeCodeCamp/freeCodeCamp/issues/52131#issuecomment-1788840851 */
 .email-list-opt {
   display: flex;
   flex-wrap: wrap;
@@ -15,6 +13,7 @@ See https://github.com/freeCodeCamp/freeCodeCamp/issues/52131#issuecomment-17888
 @media (min-width: 500px) {
   .email-sign-up strong,
   .email-sign-up p {
-    font-size: 1.17rem;
+    font-size: 1.2rem; /* Slightly increased for better readability */
   }
 }
+
